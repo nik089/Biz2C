@@ -1,0 +1,31 @@
+.container{
+    border: 1px solid;
+    width: 35%;
+    padding: 5px;
+  }
+  .createnew{
+    display: inline-block;
+    font-weight: 400;
+    width: 20%;
+    color:white;
+    background-color: #d9534f;
+    border-color: #d9534f;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin:30px;
+    border-radius:5px;
+    margin-right: 10px;
+
+  }
+  .btn
+  {
+      width:68%;
+  }
+   
+  
+  
+  

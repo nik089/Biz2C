@@ -1,0 +1,19 @@
+<h1 style="text-align:center">Homepage</h1>
+<a routerLink="../homepage" class="btn btn-default" class="userlist">List Of User</a>
+<a routerLink="../createuser" class="btn btn-info" class="createnew">Create New User</a>
+<div class="parent">
+  <div class="child"  *ngFor="let c of ndata">
+    <!-- <div *ngFor="let c of ndata"> -->
+    <h6>Name:</h6>
+       {{c.name}}
+    <h6>Email:</h6>
+       {{c.email}}
+    <h6>Phone Number:</h6>
+        {{c.pn}}<br>
+    <input type="button" value="Edit" class="btn btn-info" (click)="editdata(c._id)"/>&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="button" value="Delete" class="btn btn-danger" (click)="deletedata(c._id)"/>
+  </div>
+  <!-- <input type="button" value="Logout" href="javascript:void()" class="btn btn-info" (click)="logout()"/> -->
+
+
+</div>
